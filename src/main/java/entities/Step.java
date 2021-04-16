@@ -12,4 +12,10 @@ public class Step {
         this.duration = duration;
     }
 
+    public Duration getDuration() {
+        return null;
+    }
+
 }
+
+

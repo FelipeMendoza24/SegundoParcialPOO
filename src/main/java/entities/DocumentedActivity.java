@@ -22,11 +22,16 @@ public class DocumentedActivity extends Activity {
     @Override
     public Duration getDuration() throws SabanaResearchException {
             double cont = 0;
-            for(NormalActivity n: this.){
+            for(NormalActivity n: this.activities){
                 n.getDuration();
                 cont++;
             }
             return Duration.ofDays((long) cont);
         }
+    public void getDedication() throws SabanaResearchException {
+        for (Question q:this.questions){
+            q.getDedication();
+        }
+        return;
     }
 }

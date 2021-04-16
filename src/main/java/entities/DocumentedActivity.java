@@ -20,7 +20,13 @@ public class DocumentedActivity extends Activity {
     }
 
     @Override
-    public Duration getDuration() {
-        return null;
+    public Duration getDuration() throws SabanaResearchException {
+            double cont = 0;
+            for(NormalActivity n: this.){
+                n.getDuration();
+                cont++;
+            }
+            return Duration.ofDays((long) cont);
+        }
     }
 }

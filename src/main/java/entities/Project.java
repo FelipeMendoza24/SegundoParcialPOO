@@ -28,6 +28,9 @@ public class Project {
     }
 
     public Duration getDuration() throws SabanaResearchException {
+        if (this.iterations.size()==0){
+            throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_PROJECT);
+        }
         double cont = 0;
         for(Iteration i: this.iterations){
             i.getDuration();

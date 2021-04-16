@@ -1,3 +1,9 @@
+# Felipe Mendoza Parcial
+
+## DISEÑANDO
+### Diagrama de clases
+* ![image](https://user-images.githubusercontent.com/78186138/115094352-d64b7900-9ee2-11eb-94e9-f05a6c41502a.png)
+
 ## CONCEPTOS
 ### ¿Cuáles son las acciones los tres momentos importantes de las excepciones? ¿Cuál es el objetivo de cada una? ¿Cómo se implementa en Java cada acción?
 * Las tres acciones mas importantes de las excepciones son: 1) **Cuando estas se lanzan.** 2) **Cuando se propagan.** 3) **Cuando se capturan.** 
